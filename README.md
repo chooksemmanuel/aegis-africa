@@ -1,5 +1,7 @@
 # Aegis Africa
+
 
+[![Tests](https://github.com/chooksemmanuel/aegis-africa/actions/workflows/tests.yml/badge.svg)](https://github.com/chooksemmanuel/aegis-africa/actions/workflows/tests.yml)
 Early-stage, rule-based cybersecurity prototype exploring suspicious-message and URL screening for African small businesses.
 
 
@@ -245,6 +247,7 @@ No open-source licence has been selected. Unless and until a licence is added, n
 ## Disclaimer
 
 Aegis Africa is an early educational and product-validation prototype. The current application provides heuristic warnings only. It does not provide professional cybersecurity, legal, financial, or fraud-recovery advice, and it should not be relied on as the sole basis for a security or payment decision.
+
 
 
 
