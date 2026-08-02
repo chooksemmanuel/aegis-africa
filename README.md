@@ -156,6 +156,10 @@ Streamlit should open the app in a local browser. Stop it with `Ctrl+C` in the t
 
 ## Screenshots
 
+### Prototype demonstration
+
+![Aegis Africa prototype demonstration](assets/aegis-africa-demo.gif)
+
 ### Message screening interface
 
 ![Aegis Africa message screening interface](assets/aegis-africa-home.png)
@@ -247,6 +251,7 @@ No open-source licence has been selected. Unless and until a licence is added, n
 ## Disclaimer
 
 Aegis Africa is an early educational and product-validation prototype. The current application provides heuristic warnings only. It does not provide professional cybersecurity, legal, financial, or fraud-recovery advice, and it should not be relied on as the sole basis for a security or payment decision.
+
 
 
 
