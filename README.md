@@ -154,14 +154,13 @@ Streamlit should open the app in a local browser. Stop it with `Ctrl+C` in the t
 
 ## Screenshots
 
-Screenshots will be added after the first local run.
+### Message screening interface
 
-- `[Placeholder]` Empty input screen
-- `[Placeholder]` High-risk synthetic example with triggered indicators
-- `[Placeholder]` Low-risk synthetic example
+![Aegis Africa message screening interface](assets/aegis-africa-home.png)
 
-See [assets/README.md](assets/README.md) for suggested filenames and privacy checks.
+### Example risk assessment
 
+![Aegis Africa example risk assessment](assets/aegis-africa-risk-assessment.png)
 ## Detection approach
 
 The detector uses explainable regular expressions and URL-structure checks. Each triggered rule contributes a fixed weight to a score capped at 100. The score is grouped into three educational categories:
@@ -246,5 +245,6 @@ No open-source licence has been selected. Unless and until a licence is added, n
 ## Disclaimer
 
 Aegis Africa is an early educational and product-validation prototype. The current application provides heuristic warnings only. It does not provide professional cybersecurity, legal, financial, or fraud-recovery advice, and it should not be relied on as the sole basis for a security or payment decision.
+
 
 
