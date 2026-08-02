@@ -231,33 +231,20 @@ No named contacts, completed interviews, quotations, or market findings are publ
 
 The original March 2026 proposal and pitch materials contain strong product, market, competitive, pricing, and AI claims written for a competition setting. The repository intentionally separates the **pitch vision** from the **current implementation**. See [docs/source-review.md](docs/source-review.md) for the claims that were retained, reframed, or withheld.
 
-## Publishing to the existing empty GitHub repository
+## Updating this repository
 
-From the folder containing these files:
+After making changes locally:
 
 ```powershell
-git init
-git branch -M main
+git status
 git add .
-git commit -m "Add Phase 0 rule-based prototype and project documentation"
-git remote add origin https://github.com/chooksemmanuel/aegis-africa.git
-git push -u origin main
-```
-
-If `origin` already exists:
-
-```powershell
-git remote set-url origin https://github.com/chooksemmanuel/aegis-africa.git
-git push -u origin main
-```
-
-Do not add the private pitch documents, competition emails, contact lists, secrets, or API keys to the public repository.
-
-## Licensing
+git commit -m "Describe the changes made"
+git push## Licensing
 
 No open-source licence has been selected. Unless and until a licence is added, normal copyright restrictions apply. External reuse, modification, or redistribution permissions have not been granted through this repository.
 
 ## Disclaimer
 
 Aegis Africa is an early educational and product-validation prototype. The current application provides heuristic warnings only. It does not provide professional cybersecurity, legal, financial, or fraud-recovery advice, and it should not be relied on as the sole basis for a security or payment decision.
+
 
