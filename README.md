@@ -1,5 +1,8 @@
 # Aegis Africa
 
+Early-stage, rule-based cybersecurity prototype exploring suspicious-message and URL screening for African small businesses.
+
+
 Aegis Africa is an early-stage product concept exploring affordable, mobile-first cybersecurity support for African small businesses. It began as a solo pitch for the Growth Summit 2026 Pitch Competition and is now being documented through a small Phase 0 prototype that screens pasted messages and URLs using transparent, defensive rules.
 
 > **Educational prototype:** This repository is for technical exploration and product validation. It is not a deployed security service, not a fraud verdict system, and not a replacement for professional cybersecurity software.
@@ -114,8 +117,8 @@ aegis-africa/
 ### Windows PowerShell
 
 ```powershell
-git clone https://github.com/chooksemmanuel/aegis-africa-early-prototype.git
-cd aegis-africa-early-prototype
+git clone https://github.com/chooksemmanuel/aegis-africa.git
+cd aegis-africa
 
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -135,8 +138,8 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ### macOS or Linux
 
 ```bash
-git clone https://github.com/chooksemmanuel/aegis-africa-early-prototype.git
-cd aegis-africa-early-prototype
+git clone https://github.com/chooksemmanuel/aegis-africa.git
+cd aegis-africa
 
 python3 -m venv .venv
 source .venv/bin/activate
@@ -237,14 +240,14 @@ git init
 git branch -M main
 git add .
 git commit -m "Add Phase 0 rule-based prototype and project documentation"
-git remote add origin https://github.com/chooksemmanuel/aegis-africa-early-prototype.git
+git remote add origin https://github.com/chooksemmanuel/aegis-africa.git
 git push -u origin main
 ```
 
 If `origin` already exists:
 
 ```powershell
-git remote set-url origin https://github.com/chooksemmanuel/aegis-africa-early-prototype.git
+git remote set-url origin https://github.com/chooksemmanuel/aegis-africa.git
 git push -u origin main
 ```
 
@@ -257,3 +260,4 @@ No open-source licence has been selected. Unless and until a licence is added, n
 ## Disclaimer
 
 Aegis Africa is an early educational and product-validation prototype. The current application provides heuristic warnings only. It does not provide professional cybersecurity, legal, financial, or fraud-recovery advice, and it should not be relied on as the sole basis for a security or payment decision.
+
